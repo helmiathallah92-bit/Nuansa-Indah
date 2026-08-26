@@ -1,0 +1,1144 @@
+<!DOCTYPE html>
+<html lang="id" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  
+  <!-- Primary Meta Tags -->
+  <title>Nuansa Indah – Coffee &amp; Social Space</title>
+  <meta name="title" content="Nuansa Indah – Coffee &amp; Social Space">
+  <meta name="description" content="Nuansa Indah adalah specialty coffee shop dan ergonomic social space di Bojonggede, Bogor. Tempat terbaik untuk Work From Cafe (WFC), kolaborasi kreatif, dan menikmati racikan kopi artisan.">
+  <meta name="keywords" content="cafe nuansa indah, coffee shop bogor, wfc bojonggede, specialty coffee, social space, tempat nongkrong estetik bogor">
+  <meta name="author" content="Cafe Nuansa Indah">
+  <meta name="theme-color" content="#0E0E11">
+
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://cafenuansaindah.com/">
+  <meta property="og:title" content="Nuansa Indah – Coffee &amp; Social Space">
+  <meta property="og:description" content="Specialty coffee, ergonomic workspace, dan atmosfer kreatif modern di Bojonggede, Bogor.">
+  <meta property="og:image" content="https://images.unsplash.com/photo-1501339847302-ac426a4a7cbb?auto=format&fit=crop&w=1200&q=80">
+
+  <!-- Google Fonts: Bebas Neue (Display Headers), Lora (Serif Subheadings), Poppins (Body Text) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lora:ital,wght@0,400..700;1,400..700&family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&display=swap" rel="stylesheet">
+
+  <!-- Main Stylesheet -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- ==========================================================================
+       HEADER & STICKY NAVBAR (#navbar)
+       ========================================================================== -->
+  <header class="site-header" id="navbar">
+    <div class="header-container">
+      
+      <!-- Brand Logo -->
+      <a href="#Home" class="brand-logo" aria-label="Beranda Cafe Nuansa Indah">
+        <div class="logo-mark">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M18 8h1a4 4 0 0 1 0 8h-1"></path>
+            <path d="M2 8h16v9a4 4 0 0 1-4 4H6a4 4 0 0 1-4-4V8z"></path>
+            <line x1="6" y1="2" x2="6" y2="4"></line>
+            <line x1="10" y1="2" x2="10" y2="4"></line>
+            <line x1="14" y1="2" x2="14" y2="4"></line>
+          </svg>
+        </div>
+        <div class="logo-text">
+          <span class="brand-name">NUANSA INDAH</span>
+          <span class="brand-sub">COFFEE &amp; SOCIAL SPACE</span>
+        </div>
+      </a>
+
+      <!-- Desktop Navigation Menu -->
+      <nav class="desktop-nav" aria-label="Navigasi Utama Desktop">
+        <ul class="nav-list">
+          <li><a href="#Home" class="nav-link active">Home</a></li>
+          <li><a href="#About" class="nav-link">About Us</a></li>
+          <li><a href="#Menu" class="nav-link">Menu</a></li>
+          <li><a href="#Gallery" class="nav-link">Gallery</a></li>
+          <li><a href="#Testimoni" class="nav-link">Testimoni</a></li>
+          <li><a href="#Book-a-Table" class="nav-link">Book a Table</a></li>
+        </ul>
+      </nav>
+
+      <!-- Header Action Controls -->
+      <div class="header-actions">
+        <!-- Dark / Light Theme Toggle Button -->
+        <button class="theme-toggle-btn" id="themeToggle" aria-label="Ganti Mode Tema Tampilan">
+          <span class="theme-icon sun-icon">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <circle cx="12" cy="12" r="5"></circle>
+              <line x1="12" y1="1" x2="12" y2="3"></line>
+              <line x1="12" y1="21" x2="12" y2="23"></line>
+              <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+              <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+              <line x1="1" y1="12" x2="3" y2="12"></line>
+              <line x1="21" y1="12" x2="23" y2="12"></line>
+              <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+              <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+            </svg>
+          </span>
+          <span class="theme-icon moon-icon">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+            </svg>
+          </span>
+        </button>
+
+        <!-- CTA Header Button (Desktop) -->
+        <a href="#Book-a-Table" class="btn btn-primary btn-sm nav-cta">
+          <span>Book a Table</span>
+        </a>
+
+        <!-- Mobile Hamburger Button -->
+        <button class="hamburger-btn" id="mobileMenuBtn" aria-label="Buka Menu Navigasi" aria-expanded="false" aria-controls="mobileDrawer">
+          <span class="hamburger-line"></span>
+          <span class="hamburger-line"></span>
+          <span class="hamburger-line"></span>
+        </button>
+      </div>
+
+    </div>
+  </header>
+
+  <!-- ==========================================================================
+       OFF-CANVAS MOBILE DRAWER NAVIGATION
+       ========================================================================== -->
+  <div class="mobile-drawer-backdrop" id="drawerBackdrop" aria-hidden="true"></div>
+  
+  <div class="mobile-drawer" id="mobileDrawer" role="dialog" aria-modal="true" aria-label="Menu Navigasi Mobile" aria-hidden="true">
+    <div class="drawer-header">
+      <div class="brand-logo">
+        <div class="logo-mark">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M18 8h1a4 4 0 0 1 0 8h-1"></path>
+            <path d="M2 8h16v9a4 4 0 0 1-4 4H6a4 4 0 0 1-4-4V8z"></path>
+            <line x1="6" y1="2" x2="6" y2="4"></line>
+            <line x1="10" y1="2" x2="10" y2="4"></line>
+            <line x1="14" y1="2" x2="14" y2="4"></line>
+          </svg>
+        </div>
+        <div class="logo-text">
+          <span class="brand-name">NUANSA INDAH</span>
+        </div>
+      </div>
+      <button class="drawer-close-btn" id="drawerCloseBtn" aria-label="Tutup Menu">&times;</button>
+    </div>
+
+    <nav class="drawer-nav-list" aria-label="Daftar Navigasi Mobile">
+      <a href="#Home" class="mobile-nav-link active">Home</a>
+      <a href="#About" class="mobile-nav-link">About Us</a>
+      <a href="#Menu" class="mobile-nav-link">Daftar Menu</a>
+      <a href="#Gallery" class="mobile-nav-link">Galeri Suasana</a>
+      <a href="#Testimoni" class="mobile-nav-link">Testimoni Komunitas</a>
+      <a href="#Book-a-Table" class="mobile-nav-link">Lokasi &amp; Reservasi</a>
+    </nav>
+
+    <div class="drawer-footer">
+      <div class="status-badge">
+        <span class="status-dot"></span>
+        <span>Buka Hari Ini: 08:00 – 23:00 WIB</span>
+      </div>
+      <a href="#Book-a-Table" class="btn btn-primary btn-block btn-md" onclick="document.getElementById('drawerCloseBtn').click();">
+        <span>Reservasi Meja</span>
+      </a>
+    </div>
+  </div>
+
+  <!-- ==========================================================================
+       MAIN CONTENT CONTAINER
+       ========================================================================== -->
+  <main>
+    
+    <!-- ==========================================================================
+         SECTION 1: HERO SECTION (#Home)
+         ========================================================================== -->
+    <section class="hero-section hero-bg-image" id="Home">
+      <div class="hero-overlay"></div>
+      
+      <div class="container hero-container">
+        <div class="hero-content">
+          
+          <!-- Emblem Circular Logo Badge -->
+          <div class="hero-emblem-badge">
+            <div class="emblem-inner">
+              <svg width="44" height="44" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M18 8h1a4 4 0 0 1 0 8h-1"></path>
+                <path d="M2 8h16v9a4 4 0 0 1-4 4H6a4 4 0 0 1-4-4V8z"></path>
+                <line x1="6" y1="2" x2="6" y2="4"></line>
+                <line x1="10" y1="2" x2="10" y2="4"></line>
+                <line x1="14" y1="2" x2="14" y2="4"></line>
+              </svg>
+            </div>
+          </div>
+
+          <!-- Bold Main Title (Bebas Neue Display) -->
+          <h1 class="hero-main-title">NUANSA INDAH</h1>
+          
+          <!-- Tagline Subtitle -->
+          <p class="hero-sub-title">Coffee &amp; Social Space</p>
+          
+          <!-- Hero Narrative -->
+          <p class="hero-description">
+            Tempat ternyaman untuk <strong>Work From Cafe (WFC)</strong>, kolaborasi tim kreatif, dan menikmati racikan <em>specialty coffee</em> berstandar artisan dalam atmosfer modern yang menenangkan.
+          </p>
+
+          <!-- Action CTA Group -->
+          <div class="hero-cta-group">
+            <a href="#Menu" class="btn btn-primary btn-lg">
+              <span>Eksplorasi Menu</span>
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <line x1="5" y1="12" x2="19" y2="12"></line>
+                <polyline points="12 5 19 12 12 19"></polyline>
+              </svg>
+            </a>
+            <a href="#Book-a-Table" class="btn btn-secondary btn-lg">
+              <span>Reservasi Meja</span>
+            </a>
+          </div>
+
+          <!-- 3 Quick Facilities / Frosted Stats Cards -->
+          <div class="hero-stats-grid">
+            <div class="stat-item">
+              <div class="stat-icon">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M5 12.55a11 11 0 0 1 14.08 0"></path>
+                  <path d="M1.42 9a16 16 0 0 1 21.16 0"></path>
+                  <path d="M8.53 16.11a6 6 0 0 1 6.95 0"></path>
+                  <line x1="12" y1="20" x2="12.01" y2="20"></line>
+                </svg>
+              </div>
+              <div class="stat-text">
+                <span class="stat-value">High-Speed WiFi</span>
+                <span class="stat-label">Dedicated fiber 150+ Mbps</span>
+              </div>
+            </div>
+
+            <div class="stat-item">
+              <div class="stat-icon">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <rect x="2" y="7" width="20" height="14" rx="2" ry="2"></rect>
+                  <path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"></path>
+                </svg>
+              </div>
+              <div class="stat-text">
+                <span class="stat-value">100% Power Outlets</span>
+                <span class="stat-label">Colokan di setiap meja</span>
+              </div>
+            </div>
+
+            <div class="stat-item">
+              <div class="stat-icon">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <circle cx="12" cy="12" r="10"></circle>
+                  <polyline points="12 6 12 12 16 14"></polyline>
+                </svg>
+              </div>
+              <div class="stat-text">
+                <span class="stat-value">08:00 – 23:00 WIB</span>
+                <span class="stat-label">Buka setiap hari</span>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         SECTION 2: ABOUT US (#About)
+         ========================================================================== -->
+    <section class="section about-section" id="About">
+      <div class="container">
+        
+        <div class="about-grid">
+          <!-- Visual Image with Hover Scale Effect -->
+          <div class="about-visual-wrap reveal-on-scroll">
+            <div class="about-image-card">
+              <img 
+                src="https://images.unsplash.com/photo-1554118811-1e0d58224f24?auto=format&fit=crop&w=800&q=80" 
+                alt="Suasana Ruang Nuansa Indah Coffee and Social Space"
+                class="about-img"
+                loading="lazy"
+              >
+              <div class="about-img-badge">
+                <span class="badge-accent">Specialty Coffee &amp; Space</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- About Narrative & Philosophy -->
+          <div class="about-narrative reveal-on-scroll">
+            <span class="section-sub-title">About Us</span>
+            <h2 class="section-title">Ruang Temu Modern untuk Kopi &amp; Kreativitas</h2>
+            <div class="title-divider-left"></div>
+            
+            <p class="lead-text">
+              Selamat datang di <strong class="brand-highlight">Nuansa Indah</strong> <strong>Coffee and Social Space</strong>. Paduan harmonis antara seduhan kopi artisan berstandar SCA, kenyamanan <em>ergonomic workspace</em> berkecepatan tinggi, dan atmosfer komunal yang dirancang untuk membangkitkan kreativitas Anda.
+            </p>
+            
+            <p class="secondary-text">
+              Kami menghadirkan ruang yang tidak hanya memuaskan selera penikmat kopi sejati, tetapi juga menjadi tempat bernaung para <em>digital nomads</em>, pekerja remote, mahasiswa, serta keluarga yang menginginkan suasana nyaman, hangat, dan inklusif.
+            </p>
+
+            <div class="about-highlights-list">
+              <div class="highlight-item">
+                <span class="highlight-bullet">&#10003;</span>
+                <span>Area Indoor Ber-AC &amp; Zona Tenang Bebas Asap Rokok</span>
+              </div>
+              <div class="highlight-item">
+                <span class="highlight-bullet">&#10003;</span>
+                <span>Outdoor Garden Teduh yang Nyaman untuk Diskusi Santai</span>
+              </div>
+              <div class="highlight-item">
+                <span class="highlight-bullet">&#10003;</span>
+                <span>Biji Kopi Pilihan 100% Arabica &amp; Menu Gourmet Lezat</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         SECTION 3: DAFTAR MENU & HARGA (#Menu)
+         ========================================================================== -->
+    <section class="section menu-section" id="Menu">
+      <div class="container">
+        
+        <!-- Header Menu -->
+        <div class="section-header reveal-on-scroll">
+          <span class="section-sub-title">Daftar Menu</span>
+          <h2 class="section-title">Menu Nuansa Indah</h2>
+          <div class="title-divider"></div>
+          <p class="section-desc">Eksplorasi cita rasa istimewa dari racikan kopi specialty, minuman artisan, pastry hangat, hingga sajian kuliner gourmet yang memanjakan lidah.</p>
+        </div>
+
+        <!-- 2 Big Highlight Category Banners (Drinks & Foods) -->
+        <div class="menu-big-categories-grid reveal-on-scroll">
+          
+          <!-- Category 1: Drinks -->
+          <div class="big-cat-card drinks-cat" onclick="document.querySelector('[data-category=coffee]').click(); document.getElementById('menuGrid').scrollIntoView({behavior:'smooth'});">
+            <div class="big-cat-overlay"></div>
+            <div class="big-cat-content">
+              <span class="cat-pill">Specialty Beverages</span>
+              <h3 class="big-cat-title">DRINKS</h3>
+              <p class="big-cat-desc">Espresso, Cold Brew, Signature Matcha, Mocktail &amp; Artisan Tea</p>
+              <span class="big-cat-link">Lihat Menu Minuman &rarr;</span>
+            </div>
+          </div>
+
+          <!-- Category 2: Foods -->
+          <div class="big-cat-card foods-cat" onclick="document.querySelector('[data-category=food]').click(); document.getElementById('menuGrid').scrollIntoView({behavior:'smooth'});">
+            <div class="big-cat-overlay"></div>
+            <div class="big-cat-content">
+              <span class="cat-pill">Culinary &amp; Pastry</span>
+              <h3 class="big-cat-title">FOODS</h3>
+              <p class="big-cat-desc">Gourmet Rice Bowls, Pasta, Artisan Croissants &amp; Savory Snacks</p>
+              <span class="big-cat-link">Lihat Menu Makanan &rarr;</span>
+            </div>
+          </div>
+
+        </div>
+
+        <!-- Responsive Category Filter Tabs -->
+        <div class="menu-filter-container reveal-on-scroll">
+          <div class="filter-tabs" role="tablist" aria-label="Filter Kategori Menu">
+            <button class="filter-btn active" data-category="all" role="tab" aria-selected="true">
+              <span>Semua Menu</span>
+              <span class="category-count">12</span>
+            </button>
+            <button class="filter-btn" data-category="coffee" role="tab" aria-selected="false">
+              <span>Coffee</span>
+              <span class="category-count">4</span>
+            </button>
+            <button class="filter-btn" data-category="non-coffee" role="tab" aria-selected="false">
+              <span>Non-Coffee</span>
+              <span class="category-count">3</span>
+            </button>
+            <button class="filter-btn" data-category="food" role="tab" aria-selected="false">
+              <span>Foods</span>
+              <span class="category-count">3</span>
+            </button>
+            <button class="filter-btn" data-category="pastry" role="tab" aria-selected="false">
+              <span>Pastry</span>
+              <span class="category-count">2</span>
+            </button>
+          </div>
+        </div>
+
+        <!-- Menu Cards Grid (2-Column on Mobile, 3-Column on Desktop) -->
+        <div class="menu-grid" id="menuGrid">
+          <!-- ITEM 1: Nuansa Aren Latte (Coffee) -->
+          <article class="menu-card reveal-on-scroll" data-category="coffee">
+            <div class="menu-img-wrap">
+              <img 
+                src="https://images.unsplash.com/photo-1541167760496-1628856ab772?auto=format&fit=crop&w=600&q=80" 
+                alt="Nuansa Aren Latte signature coffee" 
+                class="menu-img"
+                loading="lazy"
+              >
+              <span class="menu-tag best-seller">Signature</span>
+            </div>
+            <div class="menu-info">
+              <div class="menu-header-row">
+                <h3 class="menu-name">Nuansa Aren Latte</h3>
+                <span class="menu-price">Rp 28.000</span>
+              </div>
+              <p class="menu-desc">Espresso ganda Arabica berpadu susu creamy segar dan gula aren murni.</p>
+              <div class="menu-footer-row">
+                <div class="menu-meta">
+                  <span class="badge-pill-sm">Iced / Hot</span>
+                  <span class="badge-pill-sm">Best Seller</span>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <!-- ITEM 2: Manual Brew V60 (Coffee) -->
+          <article class="menu-card reveal-on-scroll" data-category="coffee">
+            <div class="menu-img-wrap">
+              <img 
+                src="https://images.unsplash.com/photo-1514432324607-a09d9b4aefdd?auto=format&fit=crop&w=600&q=80" 
+                alt="Manual Brew V60 Single Origin" 
+                class="menu-img"
+                loading="lazy"
+              >
+              <span class="menu-tag">Single Origin</span>
+            </div>
+            <div class="menu-info">
+              <div class="menu-header-row">
+                <h3 class="menu-name">Manual Brew V60</h3>
+                <span class="menu-price">Rp 32.000</span>
+              </div>
+              <p class="menu-desc">Seduhan filter pour-over dengan biji kopi single origin lokal terkurasi.</p>
+              <div class="menu-footer-row">
+                <div class="menu-meta">
+                  <span class="badge-pill-sm">Filter Coffee</span>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <!-- ITEM 3: Vanilla Oat Latte (Coffee) -->
+          <article class="menu-card reveal-on-scroll" data-category="coffee">
+            <div class="menu-img-wrap">
+              <img 
+                src="https://images.unsplash.com/photo-1577968897966-3d4325b36b61?auto=format&fit=crop&w=600&q=80" 
+                alt="Vanilla Oat Latte Plant Based" 
+                class="menu-img"
+                loading="lazy"
+              >
+              <span class="menu-tag vegan">Plant-Based</span>
+            </div>
+            <div class="menu-info">
+              <div class="menu-header-row">
+                <h3 class="menu-name">Vanilla Oat Latte</h3>
+                <span class="menu-price">Rp 35.000</span>
+              </div>
+              <p class="menu-desc">Espresso halus berpadu susu oat premium dan ekstrak vanila alami.</p>
+              <div class="menu-footer-row">
+                <div class="menu-meta">
+                  <span class="badge-pill-sm">Dairy-Free</span>
+                  <span class="badge-pill-sm">Vegan</span>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <!-- ITEM 4: Americano Classico (Coffee) -->
+          <article class="menu-card reveal-on-scroll" data-category="coffee">
+            <div class="menu-img-wrap">
+              <img 
+                src="https://images.unsplash.com/photo-1551030173-122aabc4489c?auto=format&fit=crop&w=600&q=80" 
+                alt="Caffe Americano Classico" 
+                class="menu-img"
+                loading="lazy"
+              >
+            </div>
+            <div class="menu-info">
+              <div class="menu-header-row">
+                <h3 class="menu-name">Caffe Americano</h3>
+                <span class="menu-price">Rp 24.000</span>
+              </div>
+              <p class="menu-desc">Ekstraksi double espresso murni dengan air mineral terfilterisasi.</p>
+              <div class="menu-footer-row">
+                <div class="menu-meta">
+                  <span class="badge-pill-sm">Bold &amp; Clean</span>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <!-- ITEM 5: Kyoto Uji Matcha Latte (Non-Coffee) -->
+          <article class="menu-card reveal-on-scroll" data-category="non-coffee">
+            <div class="menu-img-wrap">
+              <img 
+                src="https://images.unsplash.com/photo-1536256263959-770b48d82b0a?auto=format&fit=crop&w=600&q=80" 
+                alt="Kyoto Uji Matcha Latte artisan" 
+                class="menu-img"
+                loading="lazy"
+              >
+              <span class="menu-tag best-seller">Favorite</span>
+            </div>
+            <div class="menu-info">
+              <div class="menu-header-row">
+                <h3 class="menu-name">Kyoto Matcha Latte</h3>
+                <span class="menu-price">Rp 32.000</span>
+              </div>
+              <p class="menu-desc">Bubuk matcha murni dari Uji, Kyoto berpadu dengan fresh milk gurih.</p>
+              <div class="menu-footer-row">
+                <div class="menu-meta">
+                  <span class="badge-pill-sm">Rich Umami</span>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <!-- ITEM 6: Earl Grey Milk Tea (Non-Coffee) -->
+          <article class="menu-card reveal-on-scroll" data-category="non-coffee">
+            <div class="menu-img-wrap">
+              <img 
+                src="https://images.unsplash.com/photo-1576092768241-dec231879fc3?auto=format&fit=crop&w=600&q=80" 
+                alt="Earl Grey Milk Tea aroma bergamot" 
+                class="menu-img"
+                loading="lazy"
+              >
+            </div>
+            <div class="menu-info">
+              <div class="menu-header-row">
+                <h3 class="menu-name">Earl Grey Milk Tea</h3>
+                <span class="menu-price">Rp 28.000</span>
+              </div>
+              <p class="menu-desc">Seduhan teh hitam bergamot Inggris dengan susu segar dan sirup maple.</p>
+              <div class="menu-footer-row">
+                <div class="menu-meta">
+                  <span class="badge-pill-sm">Aromatic</span>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <!-- ITEM 7: Sparkling Berry Fizz (Non-Coffee) -->
+          <article class="menu-card reveal-on-scroll" data-category="non-coffee">
+            <div class="menu-img-wrap">
+              <img 
+                src="https://images.unsplash.com/photo-1513558161293-cdaf765ed2fd?auto=format&fit=crop&w=600&q=80" 
+                alt="Sparkling Berry Fizz Mocktail Segar" 
+                class="menu-img"
+                loading="lazy"
+              >
+              <span class="menu-tag">Refreshing</span>
+            </div>
+            <div class="menu-info">
+              <div class="menu-header-row">
+                <h3 class="menu-name">Sparkling Berry Fizz</h3>
+                <span class="menu-price">Rp 30.000</span>
+              </div>
+              <p class="menu-desc">Puree strawberry, raspberry liar, soda dingin, dan mint segar.</p>
+              <div class="menu-footer-row">
+                <div class="menu-meta">
+                  <span class="badge-pill-sm">Mocktail</span>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <!-- ITEM 8: Truffle Beef Gyudon (Food) -->
+          <article class="menu-card reveal-on-scroll" data-category="food">
+            <div class="menu-img-wrap">
+              <img 
+                src="https://images.unsplash.com/photo-1546069901-ba9599a7e63c?auto=format&fit=crop&w=600&q=80" 
+                alt="Truffle Beef Gyudon Rice Bowl" 
+                class="menu-img"
+                loading="lazy"
+              >
+              <span class="menu-tag best-seller">Chef Pick</span>
+            </div>
+            <div class="menu-info">
+              <div class="menu-header-row">
+                <h3 class="menu-name">Truffle Beef Gyudon</h3>
+                <span class="menu-price">Rp 48.000</span>
+              </div>
+              <p class="menu-desc">Daging sapi US shortplate empuk saus yakiniku, minyak truffle, dan onsen egg.</p>
+              <div class="menu-footer-row">
+                <div class="menu-meta">
+                  <span class="badge-pill-sm">Main Course</span>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <!-- ITEM 9: Spaghetti Aglio Olio (Food) -->
+          <article class="menu-card reveal-on-scroll" data-category="food">
+            <div class="menu-img-wrap">
+              <img 
+                src="https://images.unsplash.com/photo-1551183053-bf91a1d81141?auto=format&fit=crop&w=600&q=80" 
+                alt="Spaghetti Aglio Olio Smoked Beef" 
+                class="menu-img"
+                loading="lazy"
+              >
+            </div>
+            <div class="menu-info">
+              <div class="menu-header-row">
+                <h3 class="menu-name">Spaghetti Aglio Olio</h3>
+                <span class="menu-price">Rp 39.000</span>
+              </div>
+              <p class="menu-desc">Pasta al dente ditumis extra virgin olive oil, garlic, chili, dan smoked beef.</p>
+              <div class="menu-footer-row">
+                <div class="menu-meta">
+                  <span class="badge-pill-sm">Italian</span>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <!-- ITEM 10: Truffle Parmesan Fries (Food) -->
+          <article class="menu-card reveal-on-scroll" data-category="food">
+            <div class="menu-img-wrap">
+              <img 
+                src="https://images.unsplash.com/photo-1576107232684-1279f3908594?auto=format&fit=crop&w=600&q=80" 
+                alt="Truffle Parmesan French Fries" 
+                class="menu-img"
+                loading="lazy"
+              >
+            </div>
+            <div class="menu-info">
+              <div class="menu-header-row">
+                <h3 class="menu-name">Truffle Fries</h3>
+                <span class="menu-price">Rp 29.000</span>
+              </div>
+              <p class="menu-desc">Kentang goreng renyah bumbu minyak truffle, keju parmesan, dan aioli dip.</p>
+              <div class="menu-footer-row">
+                <div class="menu-meta">
+                  <span class="badge-pill-sm">Snack</span>
+                  <span class="badge-pill-sm">Sharing</span>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <!-- ITEM 11: Almond Butter Croissant (Pastry) -->
+          <article class="menu-card reveal-on-scroll" data-category="pastry">
+            <div class="menu-img-wrap">
+              <img 
+                src="https://images.unsplash.com/photo-1555507036-ab1f4038808a?auto=format&fit=crop&w=600&q=80" 
+                alt="Almond Butter Croissant fresh baked" 
+                class="menu-img"
+                loading="lazy"
+              >
+              <span class="menu-tag best-seller">Fresh Bake</span>
+            </div>
+            <div class="menu-info">
+              <div class="menu-header-row">
+                <h3 class="menu-name">Almond Croissant</h3>
+                <span class="menu-price">Rp 26.000</span>
+              </div>
+              <p class="menu-desc">Croissant renyah butter Prancis dengan pasta almond manis dan almond panggang.</p>
+              <div class="menu-footer-row">
+                <div class="menu-meta">
+                  <span class="badge-pill-sm">Pastry</span>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <!-- ITEM 12: Cinnamon Roll Brulee (Pastry) -->
+          <article class="menu-card reveal-on-scroll" data-category="pastry">
+            <div class="menu-img-wrap">
+              <img 
+                src="https://images.unsplash.com/photo-1509365465985-25d11c17e812?auto=format&fit=crop&w=600&q=80" 
+                alt="Cinnamon Roll Brulee Glazed" 
+                class="menu-img"
+                loading="lazy"
+              >
+            </div>
+            <div class="menu-info">
+              <div class="menu-header-row">
+                <h3 class="menu-name">Cinnamon Roll</h3>
+                <span class="menu-price">Rp 28.000</span>
+              </div>
+              <p class="menu-desc">Roti gulung kayu manis lembut dengan glaze cream cheese dan karamel brulee.</p>
+              <div class="menu-footer-row">
+                <div class="menu-meta">
+                  <span class="badge-pill-sm">Pastry</span>
+                  <span class="badge-pill-sm">Sweet</span>
+                </div>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         SECTION 4: GALERI SUASANA CAFE (#Gallery)
+         ========================================================================== -->
+    <section class="section gallery-section" id="Gallery">
+      <div class="container">
+        
+        <!-- Header Judul Galeri -->
+        <div class="section-header reveal-on-scroll">
+          <span class="section-sub-title">Galeri Suasana</span>
+          <h2 class="section-title">Suasana di Nuansa Indah</h2>
+          <div class="title-divider"></div>
+          <p class="section-desc">Jelajahi visualisasi ruang kerja dan sudut bersantai yang kami rancang untuk kenyamanan Anda.</p>
+        </div>
+
+        <!-- Gallery Grid -->
+        <div class="gallery-grid">
+          <!-- Foto 1: Area Indoor WFC Ber-AC (Large) -->
+          <div class="gallery-item large reveal-on-scroll">
+            <img 
+              src="https://images.unsplash.com/photo-1497366216548-37526070297c?auto=format&fit=crop&w=1000&q=80" 
+              alt="Area Indoor WFC ber-AC dengan pencahayaan alami yang luas" 
+              class="gallery-img"
+              loading="lazy"
+            >
+            <div class="gallery-caption">
+              <span class="gallery-badge">Indoor Zone</span>
+              <h4 class="gallery-title">Ruang Kerja Tenang &amp; Sejuk</h4>
+              <p class="gallery-text">Pencahayaan alami hangat dan meja lapang untuk fokus maksimal.</p>
+            </div>
+          </div>
+
+          <!-- Foto 2: Barista Coffee Bar -->
+          <div class="gallery-item reveal-on-scroll">
+            <img 
+              src="https://images.unsplash.com/photo-1509785307050-d4066910ec1e?auto=format&fit=crop&w=800&q=80" 
+              alt="Barista Bar racikan kopi artisan" 
+              class="gallery-img"
+              loading="lazy"
+            >
+            <div class="gallery-caption">
+              <span class="gallery-badge">Coffee Bar</span>
+              <h4 class="gallery-title">Espresso &amp; Brew Bar</h4>
+              <p class="gallery-text">Tempat seduhan kopi artisan diracik penuh presisi.</p>
+            </div>
+          </div>
+
+          <!-- Foto 3: Area Outdoor & Taman Rimbun -->
+          <div class="gallery-item reveal-on-scroll">
+            <img 
+              src="https://images.unsplash.com/photo-1554118811-1e0d58224f24?auto=format&fit=crop&w=800&q=80" 
+              alt="Area outdoor rimbun dengan tanaman hijau" 
+              class="gallery-img"
+              loading="lazy"
+            >
+            <div class="gallery-caption">
+              <span class="gallery-badge">Outdoor Garden</span>
+              <h4 class="gallery-title">Taman Terbuka Asri</h4>
+              <p class="gallery-text">Spot favorit ngobrol santai sore hari menikmati udara segar.</p>
+            </div>
+          </div>
+
+          <!-- Foto 4: Sudut Sofa Santai / Reading Nook -->
+          <div class="gallery-item reveal-on-scroll">
+            <img 
+              src="https://images.unsplash.com/photo-1521017432531-fbd92d768814?auto=format&fit=crop&w=800&q=80" 
+              alt="Sudut sofa empuk estetik untuk bersantai" 
+              class="gallery-img"
+              loading="lazy"
+            >
+            <div class="gallery-caption">
+              <span class="gallery-badge">Lounge Spot</span>
+              <h4 class="gallery-title">Cozy Reading &amp; Chat Corner</h4>
+              <p class="gallery-text">Sofa empuk untuk diskusi intim dan rehat dari layar gadget.</p>
+            </div>
+          </div>
+
+          <!-- Foto 5: Meja Komunal / Ruang Komunitas -->
+          <div class="gallery-item reveal-on-scroll">
+            <img 
+              src="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=800&q=80" 
+              alt="Meja komunal untuk kumpul tim dan komunitas" 
+              class="gallery-img"
+              loading="lazy"
+            >
+            <div class="gallery-caption">
+              <span class="gallery-badge">Communal Space</span>
+              <h4 class="gallery-title">Meja Komunal &amp; Temu Komunitas</h4>
+              <p class="gallery-text">Kapasitas lega untuk brainstorming tim dan kumpul santai.</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Featured Callout Banner ("Lebih Dari Sekadar Secangkir Kopi") -->
+        <div class="gallery-cta-banner reveal-on-scroll">
+          <div class="cta-banner-content">
+            <h3 class="cta-banner-title">Lebih Dari Sekadar Secangkir Kopi.</h3>
+            <p class="cta-banner-desc">
+              <strong>Nuansa Indah</strong> lahir dari kecintaan mendalam akan biji kopi berkualitas tinggi dan kesadaran bahwa ide-ide hebat membutuhkan ruang komunal yang nyaman, tenang, dan inklusif.
+            </p>
+            <a href="https://wa.me/6281234567890?text=Halo%20Admin%20Nuansa%20Indah,%20saya%20ingin%20tanya%20reservasi%20tempat." target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-md">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                <path d="M12.04 2c-5.46 0-9.91 4.45-9.91 9.91 0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38c1.45.79 3.08 1.21 4.74 1.21 5.46 0 9.91-4.45 9.91-9.91 0-2.65-1.03-5.14-2.9-7.01A9.816 9.816 0 0 0 12.04 2zm5.78 14.07c-.24.67-1.4 1.3-1.94 1.38-.51.08-1.18.11-3.69-.94-3.08-1.28-5.07-4.43-5.22-4.63-.16-.2-1.24-1.65-1.24-3.15 0-1.5 0.78-2.24 1.06-2.55.28-.31.61-.39.81-.39.2 0 .4.01.57.01.18 0 .43-.07.67.51.24.59.83 2.02.9 2.17.07.15.12.33.02.53-.1.2-.15.33-.3.51-.15.18-.32.4-.46.54-.15.15-.31.31-.13.62.18.31.79 1.3 1.7 2.11 1.17 1.04 2.16 1.36 2.47 1.51.31.15.49.13.67-.08.18-.21.78-.91.99-1.22.21-.31.42-.26.7-.15.28.11 1.78.84 2.09.99.31.15.51.23.59.36.08.13.08.76-.16 1.43z"/>
+              </svg>
+              <span>Reservasi Tempat</span>
+            </a>
+          </div>
+          <div class="cta-banner-image">
+            <img 
+              src="https://images.unsplash.com/photo-1501339847302-ac426a4a7cbb?auto=format&fit=crop&w=700&q=80" 
+              alt="Barista menyeduh kopi di Nuansa Indah" 
+              loading="lazy"
+            >
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         SECTION 5: TESTIMONI PELANGGAN (#Testimoni)
+         ========================================================================== -->
+    <section class="section testimonials-section" id="Testimoni">
+      <div class="container">
+        
+        <!-- Header Testimoni -->
+        <div class="section-header reveal-on-scroll">
+          <span class="section-sub-title">Testimoni Komunitas</span>
+          <h2 class="section-title">Apa Kata Mereka Tentang Nuansa Indah?</h2>
+          <div class="title-divider"></div>
+          <p class="section-desc">Cerita jujur dari para digital nomads, software engineers, kurator kopi, dan pegiat startup yang menjadikan kafe kami rumah kedua mereka.</p>
+        </div>
+
+        <!-- Testimonial Cards Grid -->
+        <div class="testimonials-grid">
+          
+          <!-- Review 1 -->
+          <div class="testimonial-card reveal-on-scroll">
+            <div class="testimonial-header">
+              <div class="testimonial-avatar">
+                <img src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=150&q=80" alt="Sarah Jenkins" loading="lazy">
+              </div>
+              <div class="testimonial-author">
+                <h4 class="author-name">Sarah Jenkins</h4>
+                <div class="star-rating">
+                  <span class="star">&#9733;</span>
+                  <span class="star">&#9733;</span>
+                  <span class="star">&#9733;</span>
+                  <span class="star">&#9733;</span>
+                  <span class="star">&#9733;</span>
+                </div>
+                <span class="author-title">@sarahj_tech &bull; Product Designer</span>
+              </div>
+            </div>
+            <p class="testimonial-quote">
+              "Spot WFC terbaik yang pernah saya temukan! WiFi super kencang tanpa putus, kursinya ergonomis nyaman buat berjam-jam, dan Nuansa Aren Latte-nya benar-benar candu."
+            </p>
+          </div>
+
+          <!-- Review 2 -->
+          <div class="testimonial-card reveal-on-scroll">
+            <div class="testimonial-header">
+              <div class="testimonial-avatar">
+                <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=150&q=80" alt="Rizky Ramadhan" loading="lazy">
+              </div>
+              <div class="testimonial-author">
+                <h4 class="author-name">Rizky Ramadhan</h4>
+                <div class="star-rating">
+                  <span class="star">&#9733;</span>
+                  <span class="star">&#9733;</span>
+                  <span class="star">&#9733;</span>
+                  <span class="star">&#9733;</span>
+                  <span class="star">&#9733;</span>
+                </div>
+                <span class="author-title">@rizky_code &bull; Software Engineer</span>
+              </div>
+            </div>
+            <p class="testimonial-quote">
+              "Colokan tersedia di setiap sudut meja. Suasananya tenang, playlist musiknya pas dan tidak berisik. Tempat paling produktif buat push kode dan deep work!"
+            </p>
+          </div>
+
+          <!-- Review 3 -->
+          <div class="testimonial-card reveal-on-scroll">
+            <div class="testimonial-header">
+              <div class="testimonial-avatar">
+                <img src="https://images.unsplash.com/photo-1517841905240-472988babdf9?auto=format&fit=crop&w=150&q=80" alt="Amanda Putri" loading="lazy">
+              </div>
+              <div class="testimonial-author">
+                <h4 class="author-name">Amanda Putri</h4>
+                <div class="star-rating">
+                  <span class="star">&#9733;</span>
+                  <span class="star">&#9733;</span>
+                  <span class="star">&#9733;</span>
+                  <span class="star">&#9733;</span>
+                  <span class="star">&#9733;</span>
+                </div>
+                <span class="author-title">@amandacreative &bull; Founder Startup</span>
+              </div>
+            </div>
+            <p class="testimonial-quote">
+              "Kami sering sewa meeting pod di sini untuk diskusi tim dan pitch klien. Pelayanannya sangat ramah, tempatnya bersih estetik, dan Truffle Gyudon-nya juara banget."
+            </p>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         SECTION 6: BOOK A TABLE & LOCATION (#Book-a-Table)
+         ========================================================================== -->
+    <section class="section booking-section" id="Book-a-Table">
+      <div class="container">
+        
+        <!-- Header Booking -->
+        <div class="section-header reveal-on-scroll">
+          <span class="section-sub-title">Lokasi &amp; Reservasi</span>
+          <h2 class="section-title">Temukan Nuansa Indah di Jantung Kota</h2>
+          <div class="title-divider"></div>
+          <p class="section-desc">Kami siap menyambut Anda setiap hari untuk bekerja, bersantai, menikmati seduhan kopi terbaik, atau merayakan kolaborasi.</p>
+        </div>
+
+        <!-- 2-Column Booking & Info Grid -->
+        <div class="booking-grid">
+          
+          <!-- Column 1: Contact Info Boxes & Google Maps Embed -->
+          <div class="contact-info-column reveal-on-scroll">
+            
+            <div class="info-boxes-wrapper">
+              
+              <!-- Box 1: Alamat -->
+              <div class="info-box-item">
+                <div class="info-box-icon">
+                  <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                    <circle cx="12" cy="10" r="3"></circle>
+                  </svg>
+                </div>
+                <div class="info-box-content">
+                  <h4 class="info-box-title">Alamat Lengkap</h4>
+                  <p class="info-box-desc">Gang H Syafei, Bojong Baru, Kecamatan Bojonggede, Kabupaten Bogor, Jawa Barat 16922</p>
+                </div>
+              </div>
+
+              <!-- Box 2: Jam Operasional -->
+              <div class="info-box-item">
+                <div class="info-box-icon">
+                  <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <circle cx="12" cy="12" r="10"></circle>
+                    <polyline points="12 6 12 12 16 14"></polyline>
+                  </svg>
+                </div>
+                <div class="info-box-content">
+                  <h4 class="info-box-title">Jam Operasional</h4>
+                  <p class="info-box-desc">Senin – Minggu: 08:00 – 23:00 WIB (Buka Setiap Hari)</p>
+                </div>
+              </div>
+
+              <!-- Box 3: Kontak Telepon / Email -->
+              <div class="info-box-item">
+                <div class="info-box-icon">
+                  <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
+                  </svg>
+                </div>
+                <div class="info-box-content">
+                  <h4 class="info-box-title">Contact Person</h4>
+                  <p class="info-box-desc">+62 812-3456-7890<br>cafenuansaindah@gmail.com</p>
+                </div>
+              </div>
+
+            </div>
+
+            <!-- Interactive Google Maps Embed -->
+            <div class="google-maps-container">
+              <iframe 
+                src="https://maps.google.com/maps?q=Gang%20h%20syafei%2C%20Bojong%20Baru%2C%20Kecamatan%20Bojonggede%2C%20Kabupaten%20Bogor%2C%20Jawa%20Barat%2016922&t=m&z=15&output=embed&iwloc=near" 
+                title="Peta Lokasi Cafe Nuansa Indah" 
+                loading="lazy" 
+                allowfullscreen
+              ></iframe>
+            </div>
+
+          </div>
+
+          <!-- Column 2: Interactive Table & Space Booking Form -->
+          <div class="booking-form-column reveal-on-scroll">
+            <div class="booking-card">
+              
+              <div class="booking-card-head">
+                <h3 class="booking-form-title">Pesan Meja &amp; Ruang</h3>
+                <p class="booking-form-desc">Reservasi meja atau meeting pod tanpa biaya reservasi di muka. Konfirmasi instan via WhatsApp.</p>
+              </div>
+
+              <form class="reservation-form" id="bookingForm">
+                
+                <!-- Field: Nama Lengkap -->
+                <div class="form-group">
+                  <label for="bookingName" class="form-label">Nama Lengkap <span class="required-star">*</span></label>
+                  <input type="text" id="bookingName" name="name" class="form-input" placeholder="Contoh: Alex Pratama" required>
+                </div>
+
+                <!-- Field: No. WhatsApp -->
+                <div class="form-group">
+                  <label for="bookingPhone" class="form-label">No. WhatsApp <span class="required-star">*</span></label>
+                  <input type="tel" id="bookingPhone" name="phone" class="form-input" placeholder="Contoh: 081234567890" pattern="[0-9+ -]{9,15}" required>
+                </div>
+
+                <!-- Field: Jumlah Tamu -->
+                <div class="form-group">
+                  <label for="bookingGuests" class="form-label">Jumlah Tamu <span class="required-star">*</span></label>
+                  <select id="bookingGuests" name="guests" class="form-select" required>
+                    <option value="" disabled selected>Pilih jumlah tamu</option>
+                    <option value="1 Orang">1 Orang (Solo WFC)</option>
+                    <option value="2 Orang">2 Orang (Duo Table)</option>
+                    <option value="3-4 Orang">3 - 4 Orang (Small Group)</option>
+                    <option value="5-8 Orang">5 - 8 Orang (Communal Table)</option>
+                    <option value="8+ Orang (Acara / Meeting)">8+ Orang (Meeting / Private Event)</option>
+                  </select>
+                </div>
+
+                <!-- 2-Col Grid for Date & Time -->
+                <div class="form-row">
+                  <div class="form-group">
+                    <label for="bookingDate" class="form-label">Tanggal <span class="required-star">*</span></label>
+                    <input type="date" id="bookingDate" name="date" class="form-input" required>
+                  </div>
+                  <div class="form-group">
+                    <label for="bookingTime" class="form-label">Waktu / Sesi <span class="required-star">*</span></label>
+                    <input type="time" id="bookingTime" name="time" class="form-input" required>
+                  </div>
+                </div>
+
+                <!-- Field: Catatan Tambahan -->
+                <div class="form-group">
+                  <label for="bookingNotes" class="form-label">Catatan Tambahan (Opsional)</label>
+                  <textarea id="bookingNotes" name="notes" class="form-textarea" rows="3" placeholder="Contoh: Butuh colokan dekat dinding / Meja area outdoor tenang"></textarea>
+                </div>
+
+                <!-- Submit Button -->
+                <button type="submit" class="btn btn-primary btn-block btn-lg" id="submitBookingBtn">
+                  <span>Kirim Reservasi ke WhatsApp</span>
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <line x1="22" y1="2" x2="11" y2="13"></line>
+                    <polygon points="22 2 15 22 11 13 2 9 22 2"></polygon>
+                  </svg>
+                </button>
+
+              </form>
+
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ==========================================================================
+       SECTION 7: FOOTER & NAVIGATION
+       ========================================================================== -->
+  <footer class="site-footer" id="Footer">
+    <div class="container">
+      
+      <div class="footer-top-grid">
+        
+        <!-- Column 1: Brand Info -->
+        <div class="footer-col brand-col">
+          <div class="footer-logo">
+            <div class="logo-mark">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M18 8h1a4 4 0 0 1 0 8h-1"></path>
+                <path d="M2 8h16v9a4 4 0 0 1-4 4H6a4 4 0 0 1-4-4V8z"></path>
+                <line x1="6" y1="2" x2="6" y2="4"></line>
+                <line x1="10" y1="2" x2="10" y2="4"></line>
+                <line x1="14" y1="2" x2="14" y2="4"></line>
+              </svg>
+            </div>
+            <div class="logo-text">
+              <span class="brand-name">NUANSA INDAH</span>
+              <span class="brand-sub">COFFEE &amp; SOCIAL SPACE</span>
+            </div>
+          </div>
+          <p class="footer-tagline">
+            <strong class="text-white">Nuansa Indah</strong> Coffee and Social Space adalah ruang temu modern yang merayakan seni seduhan specialty coffee, kenyamanan bekerja tanpa batas, dan ikatan persahabatan komunitas kreatif.
+          </p>
+        </div>
+
+        <!-- Column 2: Navigasi Cepat -->
+        <div class="footer-col nav-col">
+          <h4 class="footer-title">Navigasi</h4>
+          <ul class="footer-nav-list">
+            <li><a href="#Home">Home</a></li>
+            <li><a href="#About">About Us</a></li>
+            <li><a href="#Menu">Menu</a></li>
+            <li><a href="#Gallery">Gallery</a></li>
+            <li><a href="#Testimoni">Testimoni</a></li>
+            <li><a href="#Book-a-Table">Book a Table</a></li>
+          </ul>
+        </div>
+
+        <!-- Column 3: Media Sosial -->
+        <div class="footer-col social-col">
+          <h4 class="footer-title">Sosial Media</h4>
+          <p class="footer-social-desc">Ikuti akun resmi kami untuk info promo harian, event musik, dan workshop komunitas.</p>
+          <div class="social-icon-row">
+            <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" class="social-circle-btn" aria-label="Instagram Nuansa Indah">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+                <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+                <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+              </svg>
+            </a>
+            <a href="https://tiktok.com" target="_blank" rel="noopener noreferrer" class="social-circle-btn" aria-label="TikTok Nuansa Indah">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M9 12a4 4 0 1 0 4 4V4a5 5 0 0 0 5 5"></path>
+              </svg>
+            </a>
+            <a href="https://wa.me/6281234567890" target="_blank" rel="noopener noreferrer" class="social-circle-btn" aria-label="WhatsApp Admin">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+                <path d="M12.04 2c-5.46 0-9.91 4.45-9.91 9.91 0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38c1.45.79 3.08 1.21 4.74 1.21 5.46 0 9.91-4.45 9.91-9.91 0-2.65-1.03-5.14-2.9-7.01A9.816 9.816 0 0 0 12.04 2zm5.78 14.07c-.24.67-1.4 1.3-1.94 1.38-.51.08-1.18.11-3.69-.94-3.08-1.28-5.07-4.43-5.22-4.63-.16-.2-1.24-1.65-1.24-3.15 0-1.5 0.78-2.24 1.06-2.55.28-.31.61-.39.81-.39.2 0 .4.01.57.01.18 0 .43-.07.67.51.24.59.83 2.02.9 2.17.07.15.12.33.02.53-.1.2-.15.33-.3.51-.15.18-.32.4-.46.54-.15.15-.31.31-.13.62.18.31.79 1.3 1.7 2.11 1.17 1.04 2.16 1.36 2.47 1.51.31.15.49.13.67-.08.18-.21.78-.91.99-1.22.21-.31.42-.26.7-.15.28.11 1.78.84 2.09.99.31.15.51.23.59.36.08.13.08.76-.16 1.43z"/>
+              </svg>
+            </a>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Footer Bottom Bar -->
+      <div class="footer-bottom">
+        <p>&copy; 2026 <strong>Nuansa Indah – Coffee &amp; Social Space</strong>. All rights reserved.</p>
+        <div class="footer-bottom-links">
+          <a href="#Home">Kembali ke Atas &uarr;</a>
+        </div>
+      </div>
+
+    </div>
+  </footer>
+
+  <!-- ==========================================================================
+       8. FLOATING WHATSAPP BUTTON (FAB)
+       ========================================================================== -->
+  <a 
+    href="https://wa.me/6281234567890?text=Halo%20Admin%20Nuansa%20Indah,%20saya%20ingin%20tanya%20informasi%20menu%20dan%20reservasi." 
+    target="_blank" 
+    rel="noopener noreferrer" 
+    class="floating-whatsapp-btn" 
+    id="floatingWhatsapp"
+    aria-label="Chat WhatsApp Admin Nuansa Indah"
+  >
+    <div class="fab-pulse-ring"></div>
+    <span class="fab-icon">
+      <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor">
+        <path d="M12.04 2c-5.46 0-9.91 4.45-9.91 9.91 0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38c1.45.79 3.08 1.21 4.74 1.21 5.46 0 9.91-4.45 9.91-9.91 0-2.65-1.03-5.14-2.9-7.01A9.816 9.816 0 0 0 12.04 2zm5.78 14.07c-.24.67-1.4 1.3-1.94 1.38-.51.08-1.18.11-3.69-.94-3.08-1.28-5.07-4.43-5.22-4.63-.16-.2-1.24-1.65-1.24-3.15 0-1.5 0.78-2.24 1.06-2.55.28-.31.61-.39.81-.39.2 0 .4.01.57.01.18 0 .43-.07.67.51.24.59.83 2.02.9 2.17.07.15.12.33.02.53-.1.2-.15.33-.3.51-.15.18-.32.4-.46.54-.15.15-.31.31-.13.62.18.31.79 1.3 1.7 2.11 1.17 1.04 2.16 1.36 2.47 1.51.31.15.49.13.67-.08.18-.21.78-.91.99-1.22.21-.31.42-.26.7-.15.28.11 1.78.84 2.09.99.31.15.51.23.59.36.08.13.08.76-.16 1.43z"/>
+      </svg>
+    </span>
+    <span class="fab-label">Chat Kami</span>
+  </a>
+
+  <!-- JavaScript Modules -->
+  <script src="script.js"></script>
+</body>
+</html>
